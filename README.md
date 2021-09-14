@@ -97,8 +97,9 @@ npm install
 
 - `npm start` - start the react app
 - `npm test` - run unit tests
+- `npm run test:ci` - run unit tests in terminal
 - `npm run cypress` - run e2e ui tests
-- `npm run cypress-run` - run e2e tests in terminal
+- `npm run cypress:ci` - run e2e tests in terminal
 
 ### CI/CD
 
@@ -114,13 +115,18 @@ See the [open issues](https://github.com/capcodigital/tech-radar/issues) for a l
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Open a Pull Request
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Adding Content Sections
+
+1. Ensure your content section is on the radar
+2. Edit the content array defined in `src/data/content.tsx`
+3. Duplicate the React content in the `techContent`
+4. Edit the new content, run the app and see the presentation of the content
+5. Run `test` & `cypress` to confirm build is working, then create a PR
 
 If you would like to contribute to any Capco Digital OSS projects please read:
 

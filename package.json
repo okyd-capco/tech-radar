@@ -30,8 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "CI=true react-scripts test",
     "cypress": "cypress open",
-    "cypress-run": "cypress run",
+    "cypress:ci": "cypress run",
     "eject": "react-scripts eject"
   },
   "husky": {

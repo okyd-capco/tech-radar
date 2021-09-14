@@ -10,6 +10,7 @@ export type TechContentType = {
   examples: Array<{ name: string; description: string }>;
 };
 
+// Add more content sections here (at the bottom), duplicate the React structure and edit as appropriate
 const techContent = [
   {
     technology: "Content coming",
