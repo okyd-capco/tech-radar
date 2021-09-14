@@ -135,16 +135,17 @@ const CategoryPage = () => {
       (el: any) => el.name.toLowerCase() === technologyFromUrl.toLowerCase()
     )[0]!;
 
-    // Once we have content for every technology enable filtering the content for specific tech
-    // let content = techContent.filter(
-    //   ({ technology }) => technology === technologyFromUrl
-    // )[0];
-    // setContent(content);
+    let content =
+      techContent.filter(
+        ({ technology }) => technology === technologyFromUrl
+      )[0] || techContent[0];
+    console.log(technology + " - " + technologyFromUrl);
+    console.log(techContent);
+    setContent(content);
 
     setImageLink(icon.link);
     setTechnology(technologyFromUrl);
     setCategory(categoryFromUrl);
-    setContent(techContent[0]);
 
     window.scroll({
       top: 0,

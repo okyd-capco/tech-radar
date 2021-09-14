@@ -98,6 +98,7 @@ npm install
 - `npm start` - start the react app
 - `npm test` - run unit tests
 - `npm run cypress` - run e2e ui tests
+- `npm run cypress-run` - run e2e tests in terminal
 
 ### CI/CD
 
