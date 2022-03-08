@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-import Footer from "../components/Footer";
 import Grid from "@material-ui/core/Grid";
 import MobileRadarBackground from "../components/MobileRadarBackground";
 import Radar from "../components/Radar";

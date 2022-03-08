@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import * as d3 from "d3";
 import styled from "styled-components/macro";
-import { CategoryRadarTooltip } from "../components/StyledTooltip";
+import { CategoryRadarTooltip } from "./StyledTooltip";
 
 const width = 400;
 const height = 800;

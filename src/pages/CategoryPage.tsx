@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState, FC } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import {
   RadarContextType,
   RadarContext,
